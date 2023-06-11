@@ -1,0 +1,30 @@
+﻿  Asteroid.cpp
+  Game.cpp
+  Laser.cpp
+  Ship.cpp
+  SpriteComponent.cpp
+  コードを生成中...
+Game.obj : error LNK2019: 未解決の外部シンボル SDL_GetError が関数 "public: bool __cdecl Game::Initialize(void)" (?Initialize@Game@@QEAA_NXZ) で参照されました
+Game.obj : error LNK2019: 未解決の外部シンボル SDL_FreeSurface が関数 "public: struct SDL_Texture * __cdecl Game::GetTexture(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?GetTexture@Game@@QEAAPEAUSDL_Texture@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) で参照されました
+Game.obj : error LNK2019: 未解決の外部シンボル SDL_CreateWindow が関数 "public: bool __cdecl Game::Initialize(void)" (?Initialize@Game@@QEAA_NXZ) で参照されました
+Game.obj : error LNK2019: 未解決の外部シンボル SDL_DestroyWindow が関数 "public: void __cdecl Game::Shutdown(void)" (?Shutdown@Game@@QEAAXXZ) で参照されました
+Game.obj : error LNK2019: 未解決の外部シンボル SDL_GetKeyboardState が関数 "private: void __cdecl Game::ProcessInput(void)" (?ProcessInput@Game@@AEAAXXZ) で参照されました
+Game.obj : error LNK2019: 未解決の外部シンボル SDL_PollEvent が関数 "private: void __cdecl Game::ProcessInput(void)" (?ProcessInput@Game@@AEAAXXZ) で参照されました
+Game.obj : error LNK2019: 未解決の外部シンボル SDL_Log が関数 "public: struct SDL_Texture * __cdecl Game::GetTexture(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?GetTexture@Game@@QEAAPEAUSDL_Texture@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) で参照されました
+Game.obj : error LNK2019: 未解決の外部シンボル SDL_CreateRenderer が関数 "public: bool __cdecl Game::Initialize(void)" (?Initialize@Game@@QEAA_NXZ) で参照されました
+Game.obj : error LNK2019: 未解決の外部シンボル SDL_CreateTextureFromSurface が関数 "public: struct SDL_Texture * __cdecl Game::GetTexture(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?GetTexture@Game@@QEAAPEAUSDL_Texture@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) で参照されました
+Game.obj : error LNK2019: 未解決の外部シンボル SDL_SetRenderDrawColor が関数 "private: void __cdecl Game::GenerateOutput(void)" (?GenerateOutput@Game@@AEAAXXZ) で参照されました
+Game.obj : error LNK2019: 未解決の外部シンボル SDL_RenderClear が関数 "private: void __cdecl Game::GenerateOutput(void)" (?GenerateOutput@Game@@AEAAXXZ) で参照されました
+Game.obj : error LNK2019: 未解決の外部シンボル SDL_RenderPresent が関数 "private: void __cdecl Game::GenerateOutput(void)" (?GenerateOutput@Game@@AEAAXXZ) で参照されました
+Game.obj : error LNK2019: 未解決の外部シンボル SDL_DestroyTexture が関数 "private: void __cdecl Game::UnloadData(void)" (?UnloadData@Game@@AEAAXXZ) で参照されました
+Game.obj : error LNK2019: 未解決の外部シンボル SDL_DestroyRenderer が関数 "public: void __cdecl Game::Shutdown(void)" (?Shutdown@Game@@QEAAXXZ) で参照されました
+Game.obj : error LNK2019: 未解決の外部シンボル SDL_GetTicks が関数 "public: bool __cdecl Game::Initialize(void)" (?Initialize@Game@@QEAA_NXZ) で参照されました
+Game.obj : error LNK2019: 未解決の外部シンボル SDL_Init が関数 "public: bool __cdecl Game::Initialize(void)" (?Initialize@Game@@QEAA_NXZ) で参照されました
+Game.obj : error LNK2019: 未解決の外部シンボル SDL_Quit が関数 "public: void __cdecl Game::Shutdown(void)" (?Shutdown@Game@@QEAAXXZ) で参照されました
+Game.obj : error LNK2019: 未解決の外部シンボル IMG_Init が関数 "public: bool __cdecl Game::Initialize(void)" (?Initialize@Game@@QEAA_NXZ) で参照されました
+Game.obj : error LNK2019: 未解決の外部シンボル IMG_Quit が関数 "public: void __cdecl Game::Shutdown(void)" (?Shutdown@Game@@QEAAXXZ) で参照されました
+Game.obj : error LNK2019: 未解決の外部シンボル IMG_Load が関数 "public: struct SDL_Texture * __cdecl Game::GetTexture(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?GetTexture@Game@@QEAAPEAUSDL_Texture@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) で参照されました
+SpriteComponent.obj : error LNK2019: 未解決の外部シンボル SDL_QueryTexture が関数 "public: virtual void __cdecl SpriteComponent::SetTexture(struct SDL_Texture *)" (?SetTexture@SpriteComponent@@UEAAXPEAUSDL_Texture@@@Z) で参照されました
+SpriteComponent.obj : error LNK2019: 未解決の外部シンボル SDL_RenderCopyEx が関数 "public: virtual void __cdecl SpriteComponent::Draw(struct SDL_Renderer *)" (?Draw@SpriteComponent@@UEAAXPEAUSDL_Renderer@@@Z) で参照されました
+MSVCRTD.lib(exe_main.obj) : error LNK2019: 未解決の外部シンボル main が関数 "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) で参照されました
+C:\C++game\cpp proj\shotgun\x64\Debug\shotgun.exe : fatal error LNK1120: 23 件の未解決の外部参照
